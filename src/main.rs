@@ -4,7 +4,7 @@ use inquire::{MultiSelect, Text};
 use todo::{TodoItem, read_todos, write_todos};
 
 #[derive(Parser)]
-#[command(name = "Todo CLI", version)]
+#[command(name = "Simple Todo CLI", version)]
 struct Cli {
     #[command(subcommand)]
     command: Commands,
