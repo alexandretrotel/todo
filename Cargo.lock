@@ -437,7 +437,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "todo"
+name = "todo-cli"
 version = "1.0.0"
 dependencies = [
  "anyhow",
