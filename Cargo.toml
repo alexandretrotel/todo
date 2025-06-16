@@ -1,9 +1,13 @@
 [package]
 name = "simple-todo-cli"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 description="A simple todo CLI app in Rust."
 license="MIT"
+
+[[bin]]
+name = "todo"
+path = "src/main.rs"
 
 [dependencies]
 anyhow = "1.0.98"
