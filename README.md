@@ -1,9 +1,9 @@
-# 📝 Simple Todo CLI
+# Simple Todo CLI
 
 A simple and interactive command-line tool written in Rust to manage todos in your project repositories.  
 Tasks are stored in a local `todo.json` file at the root of the repository.
 
-## ✨ Features
+## Features
 
 - Add tasks via prompt or directly from the command line.
 - List all tasks with completion status.
@@ -11,7 +11,7 @@ Tasks are stored in a local `todo.json` file at the root of the repository.
 - Mark tasks as completed (individually or in bulk).
 - JSON-based persistence (portable and versionable with Git).
 
-## 🚀 Getting Started
+## Getting Started
 
 Install with Cargo:
 
@@ -19,7 +19,7 @@ Install with Cargo:
 cargo install simple-todo-cli
 ```
 
-## 🛠 Usage
+## Usage
 
 ```bash
 todo add [TASK]        # Add a new task (interactive if not provided)
@@ -36,10 +36,10 @@ todo complete
 todo remove
 ```
 
-## 📂 Storage
+## Storage
 
 Todos are saved in a `todo.json` file in the current working directory. You can commit this file with your project if you want to share task status.
 
-## 📄 License
+## License
 
 MIT License. See `LICENSE` for more information.
